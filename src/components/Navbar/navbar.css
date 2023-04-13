@@ -39,7 +39,3 @@
     flex: 2;
 }
 
-.n-button :hover{
-    cursor: pointer;
-    color: var(--orange);
-}
