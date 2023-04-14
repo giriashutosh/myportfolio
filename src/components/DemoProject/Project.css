@@ -3,8 +3,8 @@
     
     height: 90vh;
     margin-bottom: 8rem;
-    margin-top: 9rem;
-    padding: 0 3rem 0 3rem;
+    margin-top: 1rem;
+    padding: 0 2rem 0 1rem;
 }
 
 .awesome {
@@ -24,9 +24,35 @@
     font-size: 2rem;
     font-weight: bold;
 }
-
+.awesome > :nth-child(3) {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+  }
 .p-button{
     
-    width: 5rem;
-    margin-top: 2rem;
+    width: 8rem;
+  height: 2rem;
+  margin-top: 1rem;
+  
 }
+
+
+.cards {
+    position: relative;
+    left: 20%;
+}
+.cards>*{
+    position: absolute;
+}
+
+/* blur */
+.c-blur {
+    left: 14rem;
+    top: 8rem;
+  }
+  
+  .p-blur {
+    top: 13rem;
+    left: -18rem;
+  }
