@@ -19,7 +19,7 @@ const Intro = () => {
           <span>Ashutosh Giri</span>
           <span>
             Software Developer with high level of experience in web designing
-            and development in React and 3D-Modelling, FEA Software, DSA, System Design, producting the Quality work
+            and development in React and 3D-Modelling, FEA Software, DSA, System Design, producing the Quality work
           </span>
         </div>
         <button className='button i-button'>Hire Me</button>
