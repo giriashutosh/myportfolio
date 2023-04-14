@@ -15,7 +15,8 @@ const Project = () => {
         <span>Projects</span>
         <span>Build some React Projects for learning purpose, go and checkout these projects
         <br/>using some libraries of react</span>
-        <a href={Resume} download ><button className='button p-button' >Download CV</button></a>
+        {/* <a href={Resume} download ><button className='button p-button' >Download CV</button></a> */}
+        <button className='button p-button' >Download CV</button>
         <div className='blur p-blur' style={{background: '#ABF1FF94'}}></div>
       </div>
       <div className='cards'>
