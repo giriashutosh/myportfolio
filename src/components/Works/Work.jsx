@@ -1,8 +1,9 @@
 import React from 'react'
 import './Work.css'
-import Techonsoft from '../../img/technosoft.jpg'
-import Greenleaf from '../../img/greenleaf.jpg'
-import Renov8Studio from '../img/renov8studio.jpg'
+import Techonsoft from '../../img/TechnoSoft1.png'
+import Greenleaf from '../../img/GEL.jpg'
+import Renov8Studio from '../../img/renov8Studio.jpg'
+import Developer from '../../img/coder.png'
 const Work = () => {
     return (
         <div className='work'>
@@ -15,7 +16,7 @@ const Work = () => {
                     Automate the Tank storage software and FEA.
                 </span>
                 <button className='button w-button'>Hire Me</button>
-                <div className='blur p-blur' style={{ background: '#ABF1FF94' }}></div>
+                <div className='blur w-blur' style={{ background: '#ABF1FF94' }}></div>
             </div>
             <div className='w-right'>
                 <div className='w-mainCircle'>
@@ -28,7 +29,12 @@ const Work = () => {
                     <div className='w-secCircle'>
                     <img src = {Renov8Studio} alt = ''/>
                     </div>
+                    <div className='w-secCircle'>
+                    <img src = {Developer} alt = ''/>
+                    </div>
                 </div>
+                <div className="w-backCircle blueCircle"></div>
+                <div className="w-backCircle yellowCircle"></div>
             </div>
         </div>
     )
