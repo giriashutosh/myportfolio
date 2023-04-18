@@ -11,6 +11,14 @@ import { Link } from 'react-scroll'
 const Work = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
+    function downloadFile() {
+        const link = document.createElement('Link');
+        link.to = 'contact';
+        link.setAttribute('smooth', 'true');
+        link.setAttribute('spy', 'true');
+        document.body.appendChild(link);
+        link.click();
+      }
     return (
         <div className='work' id = 'works'>
             <div className='awesome'>
@@ -21,13 +29,13 @@ const Work = () => {
                     <br />Build some 3d-models for Tank Storage software,
                     Automate the Tank storage software and FEA.
                 </span>
-                
+                {/* <Link to="contact" smooth={true} spy={true}> */}
+                   <button className='button w-button' onClick={downloadFile}>Hire Me</button>
+                {/* </Link> */}
                 
                 <div className='blur w-blur' style={{ background: '#ABF1FF94' }}></div>
             </div>
-            <Link to="contact" smooth={true} spy={true}>
-                   <button className='button w-button'>Hire Me</button>
-            </Link>
+            
             <div className='w-right'>
                 <motion.div initial={{ rotate: 45 }}
                          whileInView={{ rotate: 0 }}

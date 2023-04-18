@@ -15,7 +15,13 @@ const Project = () => {
     duration: 1,
     type: "spring",
   };
-
+  function downloadFile() {
+    const link = document.createElement('a');
+    link.href = './AshutoshGiri-CV.pdf';
+    link.setAttribute('download', 'file.pdf');
+    document.body.appendChild(link);
+    link.click();
+  }
   return (
     <div className='project' id="project">
       <div className='awesome'>
@@ -24,7 +30,7 @@ const Project = () => {
         <span>Build some React Projects for learning purpose, go and checkout these projects
           <br />using some libraries of react</span>
         {/* <a href={Resume} download style={{background: 'black'}}><button className='button p-button' >Download CV</button></a> */}
-        <a href={Resume} download><button className='button p-button' >Download CV</button></a>
+        <button className='button p-button' onClick={downloadFile}>Download CV</button>
         <div className='blur p-blur' style={{ background: '#ABF1FF94' }}></div>
       </div>
       
