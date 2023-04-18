@@ -21,12 +21,13 @@ const Work = () => {
                     <br />Build some 3d-models for Tank Storage software,
                     Automate the Tank storage software and FEA.
                 </span>
-                <Link to="contact" smooth={true} spy={true}>
-                   <button className='button w-button'>Hire Me</button>
-                </Link>
+                
                 
                 <div className='blur w-blur' style={{ background: '#ABF1FF94' }}></div>
             </div>
+            <Link to="contact" smooth={true} spy={true}>
+                   <button className='button w-button'>Hire Me</button>
+            </Link>
             <div className='w-right'>
                 <motion.div initial={{ rotate: 45 }}
                          whileInView={{ rotate: 0 }}

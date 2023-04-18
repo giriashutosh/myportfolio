@@ -29,12 +29,19 @@
     font-size: 14px;
     margin-top: 1rem;
   }
+
+/* a {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: black;
+} */
 .p-button{
-    
+    /* position: relative; */
     width: 8rem;
   height: 2rem;
   margin-top: 1rem;
-  
+  /* left: -22rem; */
 }
 
 

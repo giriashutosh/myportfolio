@@ -23,10 +23,11 @@ const Project = () => {
         <span>Projects</span>
         <span>Build some React Projects for learning purpose, go and checkout these projects
           <br />using some libraries of react</span>
-        {/* <a href={Resume} download ><button className='button p-button' >Download CV</button></a> */}
-        <button className='button p-button' >Download CV</button>
+        {/* <a href={Resume} download style={{background: 'black'}}><button className='button p-button' >Download CV</button></a> */}
+        <a href={Resume} download><button className='button p-button' >Download CV</button></a>
         <div className='blur p-blur' style={{ background: '#ABF1FF94' }}></div>
       </div>
+      
       <div className='cards'>
         {/* First card */}
         <motion.div initial={{ left: "25rem" }}
