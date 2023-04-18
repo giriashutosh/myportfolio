@@ -6,7 +6,7 @@ import Renov8Studio from '../../img/renov8Studio.jpg'
 import Developer from '../../img/coder.png'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
 
 const Work = () => {
     const theme = useContext(themeContext);

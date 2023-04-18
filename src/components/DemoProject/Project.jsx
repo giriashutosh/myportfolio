@@ -4,7 +4,7 @@ import Card from '../Card/Card'
 import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
-import Resume from './AshutoshGiri-CV.pdf'
+// import Resume from './AshutoshGiri-CV.pdf'
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 const Project = () => {
