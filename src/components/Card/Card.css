@@ -38,3 +38,9 @@
     transform:matrix3d(2);
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px){
+    .card{
+      width: auto;
+    }
+  }
